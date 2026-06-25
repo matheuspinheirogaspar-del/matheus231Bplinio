@@ -76,6 +76,18 @@
             margin-bottom: 10px;
             font-size: 1.1rem;
         }
+        /* Estilização para centralizar e deixar o vídeo responsivo */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .video-container iframe {
+            max-width: 100%;
+            border-radius: 8px;
+            border: 2px solid #00f2fe;
+            box-shadow: 0 0 15px rgba(0, 242, 254, 0.3);
+        }
         footer {
             text-align: center;
             padding: 20px;
@@ -119,6 +131,14 @@
                     <h3>Ningning</h3>
                     <p>Vocalista Principal, Maknae (Mais nova)</p>
                 </div>
+            </div>
+        </section>
+
+        <section id="video">
+            <h2>Clipe Oficial</h2>
+            <p>Assista ao videoclipe de "Supernova", um dos maiores fenômenos do grupo:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vPcNJCsfwB8?si=U0aKFlYIMJX64cYL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
 
